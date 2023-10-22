@@ -27,16 +27,12 @@
 			min-width: 80%;
 		}
 
-		@media (max-width: 455px) {
-			flex-direction: column;
-
-			gap: 10px;
-
-			.shareQr {
-				margin-right: auto;
-				margin-left: 0;
-			}
-		}
+		// @media (max-width: 455px) {
+		// 	.shareQr {
+		// 		margin-right: auto;
+		// 		margin-left: 0;
+		// 	}
+		// }
 	}
 }
 
@@ -96,6 +92,7 @@
 	border-radius: 20px;
 
 	@media (max-width: 800px) {
+		margin: 20px auto;
 		min-width: 80%;
 		// margin-top: 146px;
 	}
