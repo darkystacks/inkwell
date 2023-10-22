@@ -1,10 +1,8 @@
-import { ChangeEvent, FC, useEffect, useState } from 'react'
-import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css'
-
-// import DOMPurify from 'dompurify'
 import { EditorState, convertToRaw } from 'draft-js'
 import draftToHtml from 'draftjs-to-html'
+import { ChangeEvent, FC, useEffect, useState } from 'react'
 import { Editor } from 'react-draft-wysiwyg'
+import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css'
 
 import { useNavigate } from 'react-router-dom'
 import {
