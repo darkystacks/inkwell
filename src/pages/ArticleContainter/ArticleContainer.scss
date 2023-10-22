@@ -22,10 +22,20 @@
 			width: 95px;
 		}
 
-		@media (max-width: 614px) {
+		@media (max-width: 800px) {
+			min-width: 80%;
+			// margin-top: 146px;
+		}
+
+		@media (max-width: 455px) {
 			flex-direction: column;
-			margin: 0 0 auto auto;
+
 			gap: 10px;
+
+			.shareQr {
+				margin-right: auto;
+				margin-left: 0;
+			}
 		}
 	}
 }
@@ -102,8 +112,26 @@
 	}
 
 	h1,
+	strong {
+		word-wrap: break-word;
+	}
+	h1,
 	h2 {
 		margin-bottom: 20px;
+	}
+	h3 {
+		margin-bottom: 10px;
+	}
+
+	p {
+		word-wrap: break-word;
+		margin-bottom: 10px;
+	}
+
+	img {
+		max-width: 90%;
+		max-height: fit-content;
+		object-fit: cover;
 	}
 }
 

@@ -80,7 +80,7 @@ const AddArticle: FC = () => {
 		<div
 			className='add-wrapper'
 			style={{
-				marginTop: coverImage && '240px',
+				marginTop: coverImage && '280px',
 				backgroundColor: articleTheme && articleTheme,
 			}}
 		>
@@ -188,7 +188,7 @@ const AddArticle: FC = () => {
 					},
 					blockType: {
 						inDropdown: true,
-						options: ['Normal', 'H2', 'Blockquote'],
+						options: ['Normal', 'H2', 'H3', 'Blockquote'],
 						className: undefined,
 						component: undefined,
 						dropdownClassName: undefined,
@@ -204,7 +204,7 @@ const AddArticle: FC = () => {
 					},
 					colorPicker: {
 						icon: colorIcon,
-						className: 'icon',
+						className: 'icon desktopIcon',
 						component: undefined,
 						popupClassName: 'chooseColor',
 						colors: [
@@ -228,12 +228,12 @@ const AddArticle: FC = () => {
 						showOpenOptionOnHover: true,
 						defaultTargetOption: '_self',
 						options: ['link'],
-						link: { icon: linkIcon, className: 'icon' },
+						link: { icon: linkIcon, className: 'icon desktopIcon' },
 						linkCallback: undefined,
 					},
 					image: {
 						icon: imageIcon,
-						className: 'icon',
+						className: 'icon desktopIcon',
 						component: undefined,
 						popupClassName: undefined,
 						urlEnabled: true,
@@ -247,13 +247,6 @@ const AddArticle: FC = () => {
 							height: 'auto',
 							width: 'auto',
 						},
-					},
-					history: {
-						inDropdown: false,
-						className: undefined,
-						component: undefined,
-						dropdownClassName: undefined,
-						options: ['undo', 'redo'],
 					},
 				}}
 			/>

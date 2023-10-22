@@ -4,6 +4,7 @@
 	justify-content: center;
 	width: 50%;
 	margin-top: 126px;
+	margin-bottom: 200px;
 	padding: 20px;
 	border-radius: 20px;
 
@@ -28,7 +29,6 @@
 	display: flex;
 	align-items: center;
 	gap: 10px;
-
 	@media (max-width: 480px) {
 		// align-self: center;
 		justify-content: center;
@@ -179,13 +179,13 @@
 	align-self: center;
 	z-index: 1;
 	top: 40px;
-	max-width: 500px;
+	max-width: 90%;
 	border-radius: 10px;
 	@media (max-width: 800px) {
 		top: 90px;
 	}
 	@media (max-width: 480px) {
-		bottom: 10px;
+		bottom: 70px;
 		top: auto;
 	}
 
@@ -219,6 +219,11 @@
 
 	font-size: 18px;
 	font-weight: 400;
+
+	img {
+		max-width: 90%;
+		object-fit: cover;
+	}
 }
 
 .icon {
