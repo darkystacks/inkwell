@@ -1,0 +1,39 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.logo {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+
+.notFound {
+	margin-top: 20%;
+	width: 70%;
+}
+
+.backHome {
+	padding: 9px 10px;
+	border-radius: 10px;
+	background-color: var(--dark);
+
+	margin-top: 110px;
+	margin-bottom: 50px;
+
+	cursor: pointer;
+	color: var(--light);
+	font-size: 14px;
+	font-weight: 400;
+	user-select: none;
+
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	&:hover {
+		transform: translateY(-3px);
+		box-shadow: 2px 2px 5px #bfbdbd;
+	}
+}

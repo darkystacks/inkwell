@@ -1,0 +1,13 @@
+@import './variables';
+@import './libs/normalize';
+
+body {
+	background-color: var(--light);
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-inline: auto;
+}
