@@ -37,6 +37,8 @@ const AddArticle: FC = () => {
 	const [submitPopupOpen, setSubmitPopupOpen] = useState(false)
 	const [coverPopupOpen, setCoverPopupOpen] = useState(false)
 
+	const D = new Date()
+
 	useEffect(() => {
 		let html = draftToHtml(convertToRaw(editorState.getCurrentContent()))
 		setConvertedContent(html)
@@ -49,7 +51,6 @@ const AddArticle: FC = () => {
 	}, [data])
 
 	const handlePublish = () => {
-		const D = new Date()
 		createArticle({
 			title,
 			coverImage,

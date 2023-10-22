@@ -4,8 +4,7 @@ import { IArticle } from '../models/IArticle'
 export const articleApi = createApi({
 	reducerPath: 'articleApi',
 	baseQuery: fetchBaseQuery({
-		baseUrl: 'http://212.193.62.200:8080/api',
-		// mode: 'no-cors',
+		baseUrl: 'https://publishing-service-pn20.onrender.com/api',
 	}),
 	tagTypes: ['Article'],
 	endpoints: builder => ({
