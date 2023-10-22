@@ -115,12 +115,10 @@ const AddArticle: FC = () => {
 			<div className='coverBlock'>
 				{!coverImage ? (
 					<div className='addCover' onClick={() => setCoverPopupOpen(true)}>
-						<img src={imageIcon} alt='cover' />
 						<span>Добавить обложку</span>
 					</div>
 				) : (
 					<div className='addCover' onClick={() => setCoverImage('')}>
-						<img src={imageIcon} alt='img' />
 						<span>Удалить обложку</span>
 					</div>
 				)}
