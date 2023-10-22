@@ -11,7 +11,6 @@ export const articleApi = createApi({
 		fetchArticle: builder.query<IArticle, string>({
 			query: (link: string) => ({
 				url: `/articles?id=${link}`,
-				mode: 'no-cors',
 			}),
 		}),
 		createArticle: builder.mutation<IArticle, IArticle>({
@@ -19,7 +18,6 @@ export const articleApi = createApi({
 				url: '/articles',
 				method: 'POST',
 				body: article,
-				mode: 'no-cors',
 			}),
 		}),
 	}),
