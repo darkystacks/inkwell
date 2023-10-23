@@ -32,7 +32,7 @@ Web service for creating and publishing anonymous articles. The URL of each arti
 
 - [vnJ](https://github.com/vnj64) - Backend Java Developer
 - [Zakhar](https://github.com/ZakharEvv) - Backend Java Developer
-- [0xNikitox](https://github.com/darkystacks) - Frontend Developer
+- Me - Frontend Developer
 
 ### Issue.
 
