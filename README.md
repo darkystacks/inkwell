@@ -33,8 +33,8 @@ If its not publishing, its on api deployment side, wait a bit or try later, sorr
 
 ### Collaborators.
 
-- [vnJ](https://github.com/vnj64) - Backend Java Developer
-- [Zakhar](https://github.com/ZakharEvv) - Backend Java Developer
+- [vnJ](https://github.com/vnj64) - Backend Developer
+- [Zakhar](https://github.com/ZakharEvv) - Backend Developer
 - Me - Frontend Developer
 
 ### Issue.
