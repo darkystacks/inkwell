@@ -39,4 +39,4 @@ If its not publishing, its on api deployment side, wait a bit or try later, sorr
 
 ### Issue.
 
-If you have any ideas, how we can impove this project or any complaints, please write an [issue](https://github.com/vnj64/service-for-publishing-articles/issues), or text me on [telegram](https://t.me/arszdarszd) **^^**.
+If you have any ideas, how we can impove this project or any complaints, please write an [issue](https://github.com/vnj64/service-for-publishing-articles/issues)**^^**.
